@@ -9,7 +9,7 @@ def merge(l,r,A):
       i+=1
     k+=1
   while i<len(l):
-    A[k]=r[i]
+    A[k]=l[i]
     i+=1
     k+=1
   while j<len(r):
