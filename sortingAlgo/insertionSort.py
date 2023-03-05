@@ -1,4 +1,9 @@
-l = [9,8,7,6,5,4,3,2,1]
+l = []
+n = int(input("enter the number of elemnts : "))
+for i in range(n):
+  c = int(input("enter the number : "))
+  l.append(c)
+print("the list is ",l)
 for i in range(1,len(l)):
   j = i-1
   key = l[i]
@@ -6,4 +11,4 @@ for i in range(1,len(l)):
     l[j+1] = l[j]
     j-=1
   l[j+1]=key
-print(l)
+print("the sorted list is ",l)
