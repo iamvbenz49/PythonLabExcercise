@@ -10,7 +10,7 @@ if row1 == col2:
   y = [[int(input()) for i in range(col2)] for j in range(row2)]
   result = [[0 for i in range(col2)] for j in range(row1)]
   print("The matrix X : ",x)
-  print("The matrix Y : ",Y)
+  print("The matrix Y : ",y)
   for i in range(row1):
     for j in range(col2):
       for k in range(len(y)):
