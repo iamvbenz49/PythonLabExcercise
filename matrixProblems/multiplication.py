@@ -9,11 +9,13 @@ if row1 == col2:
   print("enter the element in second matrix")
   y = [[int(input()) for i in range(col2)] for j in range(row2)]
   result = [[0 for i in range(col2)] for j in range(row1)]
-  print(x,y)
+  print("The matrix X : ",x)
+  print("The matrix Y : ",Y)
   for i in range(row1):
     for j in range(col2):
       for k in range(len(y)):
         result[i][j] += x[i][k]*y[k][j]
+  print("The multiplication matrix is ")
   for i in range(row1):
     print(result)
 else:
