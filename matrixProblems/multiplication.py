@@ -8,7 +8,7 @@ if row2 == col1:
   x = [[int(input()) for i in range(col1)] for j in range(row1)]
   print("enter the element in second matrix")
   y = [[int(input()) for i in range(col2)] for j in range(row2)]
-  result = [[0 for i in range(col2)] for j in range(row1)]
+  result = [[0 for i in range(col1)] for j in range(row2)]
   print("The matrix X : ",x)
   print("The matrix Y : ",y)
   for i in range(row1):
