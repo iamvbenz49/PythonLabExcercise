@@ -3,7 +3,7 @@ col1 = int(input("ENTER THE NUMBER OF COLS MATRIX 1 : "))
 row2 = int(input("ENTER THE NUMBER OF ROWS MATRIX 2 : "))
 col2 = int(input("ENTER THE NUMBER OF COLS MATRIX 1 : "))
 
-if row1 == col2:
+if row2 == col1:
   print("enter the element in first matrix")
   x = [[int(input()) for i in range(col1)] for j in range(row1)]
   print("enter the element in second matrix")
